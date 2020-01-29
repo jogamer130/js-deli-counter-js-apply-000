@@ -1,9 +1,8 @@
+var tickNumber = 0;
+
 function takeANumber(line){
-var a = 0
-for (var i = 0; i <= line.length; i++) {
   
-  line.push(a+1)
-}
+line.push(ticketNumber++)
  return `Your ticket number is ${line.length}.`
 }
 
